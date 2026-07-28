@@ -43,6 +43,16 @@ integrator), `tov_MR.py`, and `multithreadtov.py` (multiprocessing pool over
 EoS tables) are the general-purpose TOV utilities used elsewhere in the
 workflow.
 
+Development tools (beyond the paper pipeline):
+
+- `pro_producting_Wdf_core_v2.py` — extended cell solver supporting separate
+  proton/neutron masses (`M_p`, `M_n`); the variant used for the
+  per-composition production runs along the neutronization sequences.
+- `uniform_eos.ipynb` — generates the uniform RMF nuclear-matter EoS
+  (i.e. regenerates `eosdata/eos_rmf.dat`) from a `modelpar` set via `module.py`.
+- `Find_Par/` — notebooks for fitting RMF coupling constants to nuclear-matter
+  properties (used to obtain the NN1-type parameter sets).
+
 Figure scripts:
 
 - `make_fig_maxwell_C12.py` — Fig. 1 (Maxwell construction across the ¹²C

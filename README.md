@@ -148,6 +148,11 @@ Regenerating the intermediate results end-to-end:
 
 If you use this code or the EoS tables, please cite the paper above.
 
+## Acknowledgments
+
+Special thanks to GitHub user Artectek for extraordinary contributions to the program.
+Homepage: https://github.com/Artectek
+
 ## License
 
 MIT — see [LICENSE](LICENSE).

@@ -75,6 +75,30 @@ Figures are written to `figures/` (override with the environment variable
   white-dwarf M–R points, the Hartle & Thorne (1968) nonrotating HWW curve, and
   the BPS EoS table used for low-density crust comparison.
 
+## Model parameter sets
+
+The RMF coupling constants are set in the `modelpar` dict at the top of each
+`producting_Run/` notebook, in code units (energies in HMeV = 100 MeV,
+`echarge` = e in natural units). Both sets used in the paper are given there:
+
+| parameter | NN1 ("AI") | TM2 |
+|---|---|---|
+| M (nucleon) | 9.38 | 9.38 |
+| m_sigma | 5.31 | 5.26443 |
+| m_omega | 7.83 | 7.83 |
+| m_rho | 7.70 | 7.7 |
+| g_sigma | 9.82 | 11.4694 |
+| g_omega | 11.8 | 14.6377 |
+| g_rho | 3.42 | 4.6783 |
+| g2 | −15.5 | −4.444 × 1.98 |
+| g3 | 1.26 | 4.6076 |
+| c3 | 72.6 | 84.5318 |
+
+NN1 is the parameter set of Guo et al. (the default; active in the notebooks);
+TM2 is the Sugahara–Toki set (provided as a commented alternative `modelpar`
+block — swap it in to reproduce the TM2 comparison). TM2's `g2` is −4.444 fm⁻¹
+converted to code units via 1 fm⁻¹ ≈ 1.98 HMeV.
+
 ## Installation
 
 ```bash

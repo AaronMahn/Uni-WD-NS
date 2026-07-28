@@ -1,4 +1,4 @@
-# WD-NS: a unified RMF framework for white-dwarf and neutron-star matter
+# Uni-WD-NS: a unified RMF framework for white-dwarf and neutron-star matter
 
 Code accompanying the paper
 

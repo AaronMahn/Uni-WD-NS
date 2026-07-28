@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.ipynb_checkpoints/
+
+# macOS
+.DS_Store
+
+# Generated figures (regenerable via make_fig*.py)
+figures/*.png
+
+# Notebook regeneration outputs
+producting_Run/results/density/*
+producting_Run/results/eos/*
+producting_Run/results/plots/*
+producting_Run/results/tov/*
+!producting_Run/results/*/.gitkeep
+
+# Editor
+.vscode/
+.idea/

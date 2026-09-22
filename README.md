@@ -1,10 +1,13 @@
 # Uni-WD-NS: a unified RMF framework for white-dwarf and neutron-star matter
 
+[![arXiv](https://img.shields.io/badge/arXiv-2608.08824-b31b1b.svg)](https://arxiv.org/abs/2608.08824)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+
 Code accompanying the paper
 
 > **White dwarf–neutron star matter transition and the effect of light elements**
 > Yao Ma, Yong-Liang Ma, Ruo-Xi Wu, Yue-Liang Wu
-> *(arXiv link to be added)*
+> [arXiv:2608.08824 [nucl-th]](https://arxiv.org/abs/2608.08824)
 
 The framework treats white dwarfs and neutron stars — and the transition between
 them — within a single relativistic mean-field (RMF) Lagrangian. White-dwarf
@@ -146,7 +149,19 @@ Regenerating the intermediate results end-to-end:
 
 ## Citation
 
-If you use this code or the EoS tables, please cite the paper above.
+If you use this code or the EoS tables, please cite the paper:
+
+```bibtex
+@article{Ma:2026rte,
+    author        = "Ma, Yao and Ma, Yong-Liang and Wu, Ruo-Xi and Wu, Yue-Liang",
+    title         = "{White dwarf-neutron star matter transition and the effect of light elements}",
+    eprint        = "2608.08824",
+    archivePrefix = "arXiv",
+    primaryClass  = "nucl-th",
+    month         = "8",
+    year          = "2026"
+}
+```
 
 ## Acknowledgments
 
